@@ -13,3 +13,4 @@ jobs:
           if grep -Ein '\b(asdf|qwerty|asdfgh|lorem ipsum)\b' README.md; then
             echo "Gibberish detected in README.md!"
             exit 1
+          fi
